@@ -37,5 +37,4 @@ class PrezzoDAO:
         finally:
             cursor.close()
             cnx.close()
-
         return result
